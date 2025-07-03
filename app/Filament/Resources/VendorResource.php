@@ -43,7 +43,7 @@ class VendorResource extends Resource
                 Forms\Components\TextInput::make('city')
                     ->required()
                     ->maxLength(255),
-                Forms\Components\select::make('verify_status')
+                Forms\Components\Select::make('verify_status')
                     ->label('verify status')
                     ->options([
                         'pending' => 'pending',
